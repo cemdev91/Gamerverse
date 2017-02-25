@@ -1,0 +1,335 @@
+body {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+}
+h2 {
+  font-size: 29px;
+}
+/*Main Navigation*/
+@media screen and (min-width: 1200px) {
+.navbar.container {
+    max-width: 11000px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 992px) {
+.navbar.container {
+    max-width: 11000px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+.navbar.container {
+    max-width: 11000px;
+    width: 100%;
+  }
+}
+.navbar {
+  background-color: black;
+  border: black solid 1px;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+#navbar {
+  margin: 0;
+}
+.navbar-nav>li>a {
+    padding: 16px 45px;
+    font-weight: bold;
+    color: white;
+}
+/*Banner*/
+#block-banner {
+  width: ;
+}
+#block-banner h2 {
+  display: none;
+}
+.field.field--name-body.field--type-text-with-summary.field--label-hidden.field--item.quickedit-field {
+    background-color: #000000;
+}
+.col-sm-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+/*Slideshow*/
+.view-id-homepage_slideshow .views-field-title  {
+  background-color: black;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+}
+.views-field-field-gv-main-img .field-content {
+  background-color: black;
+}
+/*Page Columns*/
+#block-banner {
+  border: 10px solid black;
+}
+.col-sm-3, .col-sm-9 {
+  padding: 2px;
+  border: solid white 1px;
+  border-bottom: 0;
+  background-color: black;
+}
+/*User Account Page*/
+.js-quickedit-page-title.page-header {
+  font-size: 50px;
+  margin-left: 30px
+}
+.view-profile-account .views-field {
+  border-bottom: solid 2px black;
+}
+.view-profile-account {
+  margin: 15px
+}
+.user-info .views-field {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.user-info .views-label {
+  font-weight: bold;
+}
+.user-info .field-content {
+  margin-left: 10px
+}
+.view-content-recent th {
+  text-align: center;
+}
+.block-views-blockprofile-account-block-1 .block-title, 
+#block-views-block-content-recent-block-1 .block-title,
+#block-views-block-gv-user-recent-comments-block-1 .block-title {
+  text-align: center;
+  border: solid 2px black;
+}
+.view-gv-user-recent-comments .view-content .views-col, .view-header, .view-id-content_recent .table-striped{
+  border: solid 2px;
+  text-align: center;
+}
+.view-id-content_recent table {
+  margin-bottom: 0px;
+}
+mark {
+  padding: 0;
+}
+
+/*Forum Page*/
+table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid;
+  color: black;
+}
+table th {
+  height: 35px;
+  text-align: center;
+  border-right: 1px solid;
+  font-size: 18px;
+}
+table tr {
+  border-bottom: 1px solid;
+  height: 20px;
+}
+tbody tr td {
+  padding-left: 20px;
+  border-left: 1px solid;
+  font-size: 17px;
+  padding: 5px;
+}
+
+/*Homepage + Game Reviews*/
+body {
+  background-color: black;
+}
+.view-header {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.view-header h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.well {
+  background-color: black;
+  border: 0px solid black;
+}
+.path-frontpage .content {
+  margin-bottom: 70px;
+}
+.main-container {
+  background-color: black;
+  border: solid white 1px;
+  width: 85%;
+}
+.block-views-blockgv-console-pages-block-6 img {
+  margin: auto;
+}
+.block-views-blockgv-console-pages-block-6 .views-field.views-field-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.block-views-blockgv-console-pages-block-6 .views-field.views-field-title .field-content{
+  background-color: black;
+  padding: 2px 10px;
+}
+.block-views-blockgv-console-pages-block-6 .views-field.views-field-title a{
+  color: white;
+  font-weight: bold;
+}
+.view-gv-game-reviews img,
+.view-id-frontpage img,
+.view-id-gamerverse_events img,
+.view-id-gamerverse_news img {
+  margin: auto;
+}
+.view-id-frontpage h2, .view-id-frontpage p, .block-views-blockhomepage-slideshow-block-1 .block-title, .view-gv-game-reviews h2, .view-gv-game-reviews .author,
+.view-id-frontpage .author,
+.view-id-gamerverse_events .views-field,
+.view-id-gamerverse_news .views-field {
+  text-align: center;
+}
+.view-id-frontpage .field--name-field-systems-tags .field--item {
+  display: inline;
+}
+/*Footer*/
+footer .region-footer {
+  border: solid 2px white;
+  padding-top: 20px;
+}
+
+.footer {
+  margin-top: 10px;
+  border-top: 0;
+}
+.region-footer img {
+  margin: auto;
+}
+.region-footer .views-field-title {
+  text-align: center;
+}
+
+.footer.container {
+  width: 88%;
+  margin-top: 10px;
+}
+.field-content {
+  font-size: 17px;
+}
+.region-sidebar-first {
+  padding: 5px
+}
+.block-title {
+  text-align: center;
+}
+.field--name-field-gv-summary {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.full .field--name-field-gv-summary {  
+  font-size: 25px;
+}
+#block-login-menu {
+  display: none;
+}
+#block-login {
+  display: none;
+}
+.navbar-nav a {
+  color: white;
+}
+.col-sm-3 {
+  padding: 10px;
+}
+.grid-col {
+  padding: 10px
+}
+.highlighted {
+  padding: 20px;
+}
+.form-checkboxes label {
+  margin-right: 5px;
+}
+.fieldset-legend {
+  color: white;
+}
+.views-col {
+  padding: 10px;
+  text-align: center
+}
+.views-col img{
+  margin: auto;
+}
+#edit-field-gv-event-tags-target-id {
+  float: left;
+  width: 100%
+}
+.form-item {
+  clear: both;
+  padding: 10px
+}
+.form-select {
+  float: right;
+  margin-left: 10px;
+  padding: 10px;
+}
+.control-label {
+  float: left;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+#edit-actions {
+  margin-top: 10px
+}
+.form-inline .form-control {
+  width: 100%;
+}
+.js-form-item-field-gv-event-tags-target-id {
+  padding-left: 0px;
+}
+.col-sm-3 {
+  padding: 10px;
+}
+.grid-col {
+  padding: 10px
+}
+.highlighted {
+  padding: 20px;
+}
+tbody tr a {
+  color: black;
+}
+#event-details {
+  color: black;
+}
+#event-details .field--item {
+  display: inline;
+  margin-right: 15px;
+}
+.field--name-field-gv-event-description .field--label {
+  border: 2px solid white;
+  padding: 10px;
+  margin-bottom: 15px
+}
+.field--name-field-gv-summary {
+  margin-left: 20px;
+}
+
+
+
+
+/*.navbar a {
+  font-weight: bold;
+}*/
+
+

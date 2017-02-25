@@ -8,8 +8,8 @@ dependencies:
   - tracker
   - views
 
-# Information added by Drupal.org packaging script on 2016-07-07
-version: '8.1.5'
+# Information added by Drupal.org packaging script on 2016-12-07
+version: '8.2.4'
 core: '8.x'
 project: 'drupal'
-datestamp: 1467885304
+datestamp: 1481136831

@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'kgl80SiJ7JQCrwyrsNynRfqSZZCx3q8yLeJTpKkS2PCfToZyJWOjfeRnhKX-RJQNjl72woZ1bg';
+$settings['hash_salt'] = 'jCk-MRCveNJdZ8R8FptueRWV_MKBfeMjXezZ2RkrFmo5bRHw6SiTWIXVTzfGTMq7G2hOR4lWeA';
 
 /**
  * Deployment identifier.
@@ -718,7 +718,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 #   include __DIR__ . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'GVerse',
+  'database' => 'gamerverse',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
@@ -728,4 +728,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_hy1BJVpSq1NmGcCk6hX1QNWVV_3ZTqOvX-MT5QmGwoV9ZEKmh-_X5_IE-yXtjlLaVdk_tPEwAA/sync';
+$config_directories['sync'] = 'sites/default/files/config_D0mo1uOqp_BKfTVQ9sWKtM9KauDMrewHd5sOn9QYgPDvmHvqmNa8a5WcRRgFcTRDv3OT-C7dBw/sync';
